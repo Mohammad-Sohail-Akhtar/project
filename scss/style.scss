@@ -1,0 +1,90 @@
+.tour
+{
+    img 
+    {
+        height: 250px;
+        object-fit: cover;
+    }
+    h2
+    {
+        left: 20px;
+        bottom: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+.hero 
+{
+    background: linear-gradient(rgba(31, 6, 6, 0.344),rgba(8, 32, 8, 0.425)),url(https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg);
+    height: 100vh;
+    position: relative;
+    .logo
+    {
+        width: 90px;
+    }
+    &-content
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: white;
+        h1 
+        {
+            font-weight: bold;
+            font-size: 2rem;
+            span 
+            {
+                color: orange;
+            }
+        }
+    }
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+.nav-pills .nav-link.active
+{
+    background: transparent;
+    font-weight: bold;
+    color: black;
+}
+.quote 
+{
+    background: linear-gradient(rgba(31, 6, 6, 0.344),rgba(8, 32, 8, 0.425)),url(https://nepalwanders.com/wp-content/themes/nepalwanders/img/youtube.jpg);
+    height: 60vh;
+    position: relative;
+    &-inner
+    {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        color: white;
+        .circle 
+        {
+            height: 90px;
+            width: 90px;
+            background: white;
+            border-radius: 50%;
+            margin: auto;
+            text-align: center;
+            color: orange;
+            font-size: 56px;
+            line-height: 90px;
+        }
+    }
+}
+div#offcanvasExample
+{
+ width: 100%;
+ background: red;
+}
+.copyright
+{
+    border-top: 1px solid #ccc;
+}
